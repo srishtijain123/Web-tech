@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>What do we do?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<h1> Our Services</h1>
+
+
+<body>
+
+<div class="container">
+<div class="box">
+<h2>01</h2>
+<h3>Web Development</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Libero nunc consequat interdum varius sit. Aliquam faucibus purus in massa tempor nec feugiat nisl.
+A pellentesque sit amet porttitor eget dolor. Diam maecenas sed enim ut.
+Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.
+Ornare arcu dui vivamus arcu felis. Tristique senectus et netus et malesuada fames ac turpis egestas.
+</p> 
+</div>
+<div class="box">
+<h2>02</h2>
+<h3>App Development</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Libero nunc consequat interdum varius sit. Aliquam faucibus purus in massa tempor nec feugiat nisl.
+A pellentesque sit amet porttitor eget dolor. Diam maecenas sed enim ut.
+Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.
+Ornare arcu dui vivamus arcu felis. Tristique senectus et netus et malesuada fames ac turpis egestas.
+</p> 
+</div>
+<div class="box">
+<h2>03</h2>
+<h3>Graphic Designing</h3>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+Libero nunc consequat interdum varius sit. Aliquam faucibus purus in massa tempor nec feugiat nisl.
+A pellentesque sit amet porttitor eget dolor. Diam maecenas sed enim ut.
+Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper.
+Ornare arcu dui vivamus arcu felis. Tristique senectus et netus et malesuada fames ac turpis egestas.
+</p> 
+</div>
+</div>
+</body>
+</html>
