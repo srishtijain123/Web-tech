@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title>Document</title>
+    <script>
+        function validateForm() {
+          var pwd=document.myform.password.value;  
+          var pwd1=document.myform.password1.value ;
+          var y= /^[A-Za-z]+$/;
+          if((pwd.length<8) && (pwd1.length<8)){  
+              alert("Password must be at least 8 characters long.");  
+              return false; 
+              }
+          if(pwd != pwd1){
+            alert("Password missmatch...Try again!!")
+            return false; 
+          }
+          var email=document.myform.email.value;  
+          var atposition=email.indexOf("@");  
+          var dotposition=email.lastIndexOf(".");  
+          if (atposition<1 || dotposition<atposition+2 || dotposition+2>=email.length){  
+            alert("Please enter a valid e-mail address ");  
+            return false;  
+            }  
+         var number= document.myform.number.value;
+         if (number.length <10 || number.length>10)
+         {
+          alert("Please enter a valid Contact number ");  
+            return false;
+         }
+    
+       
+      } 
+      </script>
+</head>
+<body>
+    
+    <div>
+        <div class="v2"></div>
+        <hr>
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    logo
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Project</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
+    </div>
+   <div class="backGround">
+       <div class="textImage" id="textImage">
+        <h1>Hey ! please fill the following form to place the order</h1>
+            
+        </div>
+        <div class="shapes">
+            <div class="rectangle">
+
+            </div>
+            <div class="eclipse">
+                
+            </div>
+        </div>
+   </div>
+   <div class="box1"></div>
+   <div class ="info">
+   <form  name="myform" action="#" onsubmit="return validateForm()" >
+    <input type="text" id="name" name="name" placeholder =" Enter your name" required><br><br>
+    <input type="number" id="number" name="number" placeholder =" Enter your contact number" required><br><br>
+    <input type="email" id="email" name="email"  placeholder =" Enter your email" required><br><br>
+    <input type="password" id="password" name="password" placeholder =" Enter your password" required><br><br>
+    <input type="password" id="password1" name="password1" placeholder =" Re-Enter your password" required><br><br>
+    <textarea  rows="8" cols="90" id="details" name="details" placeholder =" Enter your order details" required></textarea><br><br>  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+    <div class="box5">
+        <div class="subsBox5">
+            <div class="stay">
+                Let's stay in touch
+            </div>
+            <div class="subsForm">
+                <form>
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Email</label>
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="imgBox5">
+            IMAGE
+        </div>
+   </div>
+   <div class="box6">
+    <footer class="footer-distributed">
+         <div class="footer-left">
+             <h3>Company<span>logo</span></h3>
+
+             <p class="footer-links">
+                 <a href="#" class="link-1">Home</a>
+                 
+                 <a href="#">Blog</a>
+             
+                 <a href="#">Pricing</a>
+             
+                 <a href="#">About</a>
+                 
+                 <a href="#">Faq</a>
+                 
+                 <a href="#">Contact</a>
+             </p>
+
+             <p class="footer-company-name">Devwarrior © 2020</p>
+         </div>
+
+         <div class="footer-center">
+
+             <div>
+                 <i class="fa fa-map-marker"></i>
+                 <p><span>Address </span><span>Address</span></p>
+             </div>
+
+             <div>
+                 <i class="fa fa-phone"></i>
+                 <p><span>981234567</span></p>
+             </div>
+
+             <div>
+                 <i class="fa fa-envelope"></i>
+                 <p><a href="devvarrior@company.com">devvarrior@company.com</a></p>
+             </div>
+
+         </div>
+
+         <div class="footer-right">
+
+             <p class="footer-company-about">
+                 <span>About the company</span>
+                 Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+             </p>
+
+             <div class="footer-icons">
+
+                 <a href="#"><i class="fa fa-facebook"></i></a>
+                 <a href="#"><i class="fa fa-twitter"></i></a>
+                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                 <a href="#"><i class="fa fa-github"></i></a>
+
+             </div>
+
+         </div>
+
+     </footer>
+     </div>
+
+   <script src="main.js"></script>
+</body>
+</html>
+
+
