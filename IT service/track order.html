@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="track.css">
+    <title>Document</title>
+</head>
+<script>
+    function validateForm() {
+    var pwd=document.myform.password.value;  
+
+    if((pwd.length<6) && (pwd1.length<6)){  
+        alert("Password must be at least 6 characters long.");  
+        return false; 
+        }
+    
+    
+  
+    
+    }
+</script>
+<body>
+    
+    <div>
+        <div class="v2"></div>
+        <hr>
+        <header>
+            <div class="navbar">
+                <div class="logo">
+                    logo
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Project</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
+    </div>
+   <div class="backGround">
+       <div class="textImage" id="textImage">
+        <h1>Hey ! please enter your user id and password to know the current status of your order</h1>
+            
+        </div>
+        <div class="shapes">
+            <div class="rectangle">
+
+            </div>
+            <div class="eclipse">
+                
+            </div>
+        </div>
+   </div>
+   <div class="box1"></div>
+   <div class ="info">
+   <form  name="myform" action="#" onsubmit="return validateForm()">
+    <input type="text" id="userid" name="userid" placeholder =" Enter your User id"required><br><br>
+    <input type="password" id="password" name="password" placeholder =" Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+    <div class="box5">
+        <div class="subsBox5">
+            <div class="stay">
+                Let's stay in touch
+            </div>
+            <div class="subsForm">
+                <form>
+                    <input type="text" required>
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Email</label>
+                    <button>Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="imgBox5">
+            IMAGE
+        </div>
+   </div>
+    
+   <div class="box6">
+    <footer class="footer-distributed">
+         <div class="footer-left">
+             <h3>Company<span>logo</span></h3>
+
+             <p class="footer-links">
+                 <a href="#" class="link-1">Home</a>
+                 
+                 <a href="#">Blog</a>
+             
+                 <a href="#">Pricing</a>
+             
+                 <a href="#">About</a>
+                 
+                 <a href="#">Faq</a>
+                 
+                 <a href="#">Contact</a>
+             </p>
+
+             <p class="footer-company-name">Devwarrior © 2020</p>
+         </div>
+
+         <div class="footer-center">
+
+             <div>
+                 <i class="fa fa-map-marker"></i>
+                 <p><span>Address </span><span>Address</span></p>
+             </div>
+
+             <div>
+                 <i class="fa fa-phone"></i>
+                 <p><span>981234567</span></p>
+             </div>
+
+             <div>
+                 <i class="fa fa-envelope"></i>
+                 <p><a href="devvarrior@company.com">devvarrior@company.com</a></p>
+             </div>
+
+         </div>
+
+         <div class="footer-right">
+
+             <p class="footer-company-about">
+                 <span>About the company</span>
+                 Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+             </p>
+
+             <div class="footer-icons">
+
+                 <a href="#"><i class="fa fa-facebook"></i></a>
+                 <a href="#"><i class="fa fa-twitter"></i></a>
+                 <a href="#"><i class="fa fa-linkedin"></i></a>
+                 <a href="#"><i class="fa fa-github"></i></a>
+
+             </div>
+
+         </div>
+
+     </footer>
+     </div>
+   <script src="main.js"></script>
+</body>
+</html>
+
+
